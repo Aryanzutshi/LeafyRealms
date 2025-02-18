@@ -10,12 +10,12 @@ scene.add(new THREE.AxesHelper(5))
 const myText = new Text()
 scene.add(myText)
 
-myText.text = 'Virtual herbal Garden!'
 myText.position.x = -25
-myText.fontSize = 0.2
+myText.text = 'Virtual herbal Garden!'
 myText.position.y = 20
-myText.position.z = -1
+myText.fontSize = 0.2
 myText.color = 0x9966FF
+myText.position.z = -1
 myText.fontSize = 5
 
 myText.sync();
